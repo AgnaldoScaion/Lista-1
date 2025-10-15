@@ -1,0 +1,15 @@
+print("==Operadores e Precedencia==")
+print()
+
+a = float(input("Digite o valor de a: "))
+b = float(input("Digite o valor de b: "))
+c = float(input("Digite o valor de c: "))
+
+print("1. a + b * c =", a + b * c)
+print("2. (a + b) * c =", (a + b) * c)
+print("3. a ** b + c =", a ** b + c)
+print("4. a ** (b + c) =", a ** (b + c))
+print("5. a + b / c =", a + b / c)
+print("6. (a + b) / c =", (a + b) / c)
+print("7. a % b + c * 2 =", a % b + c * 2)
+print("8. (a + b * c) ** 2 - a =", (a + b * c) ** 2 - a)
